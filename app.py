@@ -45,7 +45,7 @@ HTML = """
 
 def ve_bieu_do(nam, nu):
     fig, ax = plt.subplots(figsize=(5, 4))
-    cot = ax.bar(["Nam", "Nữ"], [nam, nu], color=["#3b82f6", "#ec4899"])
+    cot = ax.bar(["Nam", "Nữ"], [nam, nu], color=["#3b82f6", "orange"])
     ax.bar_label(cot)
     ax.set_ylabel("Số sinh viên")
     ax.set_title("Số sinh viên nam / nữ trong lớp")
